@@ -2,8 +2,8 @@
  * Update API_KEY and EMBEDDABLE_ID below with your own 
  * (find these by clicking "Publish" and "View instructions" on your Embeddable dashboard)
  */
-const API_KEY = '...';
-const EMBEDDABLE_ID = '...';
+const API_KEY = env.EMBEDDABLE_API_KEY;
+const EMBEDDABLE_ID = env.EMBEDDABLE_ID;
 
 const BASE_URL = 'https://api.us.embeddable.com'; // US
 // const BASE_URL = 'https://api.eu.embeddable.com'; // EU
